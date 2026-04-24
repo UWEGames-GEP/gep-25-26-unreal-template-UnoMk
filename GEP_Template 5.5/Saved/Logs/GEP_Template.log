@@ -4092,3 +4092,194 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.04.24-12.09.03:477][582]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
 [2026.04.24-12.09.03:525][583]LogPlayLevel: Display: Destroying online subsystem :Context_45
 [2026.04.24-12.09.44:213][832]LogDerivedDataCache: C:/Users/New User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.04.24-12.10.47:281][290]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7377.892578
+[2026.04.24-12.10.48:281][293]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.24-12.10.48:281][293]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7378.560547, Update Interval: 339.852295
+[2026.04.24-12.11.29:698][929]LogEditorTransaction: Undo Delete current selection
+[2026.04.24-12.11.53:254][725]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2026.04.24-12.12.00:450][315]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.04.24-12.12.00:459][315]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2026.04.24-12.12.00:459][315]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2026.04.24-12.12.00:461][315]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1.486 ms (total: 67.514 ms)
+[2026.04.24-12.12.00:461][315]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.04.24-12.12.00:461][315]LogPlayLevel: Display: Creating online subsystem for client :Context_46
+[2026.04.24-12.12.00:463][315]LogOnline: OSS: Created online subsystem instance for: :Context_46
+[2026.04.24-12.12.00:495][316]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2026.04.24-12.12.00:498][316]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003214s)
+[2026.04.24-12.12.00:498][316]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003252s)
+[2026.04.24-12.12.00:517][316]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2026.04.24-12.12.00:524][316]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2026.04.24-12.12.00:526][316]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.04.24-12.12.00:526][316]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.04.24-12.12.00:526][316]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.04.24-12.12.00:526][316]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.04.24-12.12.00:527][316]LogWorldPartition: Display: WorldPartition initialize took 1.637 ms (total: 338.730 ms)
+[2026.04.24-12.12.00:527][316]LogPlayLevel: PIE: World Init took: (0.003516s)
+[2026.04.24-12.12.00:528][316]LogAudio: Display: Creating Audio Device:                 Id: 37, Scope: Unique, Realtime: True
+[2026.04.24-12.12.00:528][316]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.04.24-12.12.00:528][316]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.04.24-12.12.00:528][316]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.04.24-12.12.00:528][316]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.04.24-12.12.00:528][316]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.04.24-12.12.00:528][316]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.04.24-12.12.00:528][316]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.04.24-12.12.00:528][316]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.04.24-12.12.00:528][316]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.04.24-12.12.00:528][316]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.04.24-12.12.00:528][316]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.04.24-12.12.00:530][316]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.04.24-12.12.00:563][316]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Pebble V3)
+[2026.04.24-12.12.00:563][316]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.04.24-12.12.00:564][316]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.04.24-12.12.00:564][316]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.04.24-12.12.00:564][316]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=37
+[2026.04.24-12.12.00:564][316]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=37
+[2026.04.24-12.12.00:566][316]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=37
+[2026.04.24-12.12.00:566][316]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=37
+[2026.04.24-12.12.00:566][316]LogInit: FAudioDevice initialized with ID 37.
+[2026.04.24-12.12.00:566][316]LogAudio: Display: Audio Device (ID: 37) registered with world 'ThirdPersonMap'.
+[2026.04.24-12.12.00:566][316]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 37
+[2026.04.24-12.12.00:569][316]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.04.24-12.12.00:571][316]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2026.04.24-13.12.00
+[2026.04.24-12.12.00:571][316]LogWorld: Bringing up level for play took: 0.001333
+[2026.04.24-12.12.00:574][316]PIE: Server logged in
+[2026.04.24-12.12.00:576][316]PIE: Play in editor total start time 0.116 seconds.
+[2026.04.24-12.12.01:570][397]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.04.24-12.12.01:570][397]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.04.24-12.12.03:792][596]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.24-12.12.03:792][596]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2026.04.24-12.12.03:792][596]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2026.04.24-12.12.03:793][596]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.24-12.12.03:793][596]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2026.04.24-12.12.03:796][596]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.04.24-12.12.03:801][596]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.24-12.12.03:819][596]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.04.24-12.12.03:819][596]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 37
+[2026.04.24-12.12.03:819][596]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37
+[2026.04.24-12.12.03:821][596]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37
+[2026.04.24-12.12.03:825][596]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.24-12.12.03:827][596]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2026.04.24-12.12.03:869][597]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2026.04.24-12.12.04:938][686]Cmd: SELECT NONE
+[2026.04.24-12.13.11:778][195]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2026.04.24-12.13.13:833][360]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.04.24-12.13.13:839][360]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2026.04.24-12.13.13:839][360]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2026.04.24-12.13.13:841][360]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1.730 ms (total: 69.245 ms)
+[2026.04.24-12.13.13:841][360]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.04.24-12.13.13:841][360]LogPlayLevel: Display: Creating online subsystem for client :Context_47
+[2026.04.24-12.13.13:844][360]LogOnline: OSS: Created online subsystem instance for: :Context_47
+[2026.04.24-12.13.13:877][361]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2026.04.24-12.13.13:880][361]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003031s)
+[2026.04.24-12.13.13:880][361]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003069s)
+[2026.04.24-12.13.13:898][361]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2026.04.24-12.13.13:905][361]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2026.04.24-12.13.13:906][361]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.04.24-12.13.13:906][361]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.04.24-12.13.13:906][361]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.04.24-12.13.13:906][361]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.04.24-12.13.13:907][361]LogWorldPartition: Display: WorldPartition initialize took 1.096 ms (total: 339.826 ms)
+[2026.04.24-12.13.13:907][361]LogPlayLevel: PIE: World Init took: (0.002599s)
+[2026.04.24-12.13.13:908][361]LogAudio: Display: Creating Audio Device:                 Id: 38, Scope: Unique, Realtime: True
+[2026.04.24-12.13.13:908][361]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.04.24-12.13.13:908][361]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.04.24-12.13.13:908][361]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.04.24-12.13.13:908][361]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.04.24-12.13.13:908][361]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.04.24-12.13.13:908][361]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.04.24-12.13.13:908][361]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.04.24-12.13.13:908][361]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.04.24-12.13.13:908][361]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.04.24-12.13.13:908][361]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.04.24-12.13.13:908][361]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.04.24-12.13.13:910][361]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.04.24-12.13.13:940][361]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Pebble V3)
+[2026.04.24-12.13.13:940][361]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.04.24-12.13.13:940][361]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.04.24-12.13.13:940][361]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.04.24-12.13.13:941][361]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=38
+[2026.04.24-12.13.13:941][361]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=38
+[2026.04.24-12.13.13:943][361]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=38
+[2026.04.24-12.13.13:943][361]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=38
+[2026.04.24-12.13.13:943][361]LogInit: FAudioDevice initialized with ID 38.
+[2026.04.24-12.13.13:943][361]LogAudio: Display: Audio Device (ID: 38) registered with world 'ThirdPersonMap'.
+[2026.04.24-12.13.13:943][361]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 38
+[2026.04.24-12.13.13:946][361]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.04.24-12.13.13:947][361]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2026.04.24-13.13.13
+[2026.04.24-12.13.13:947][361]LogWorld: Bringing up level for play took: 0.001410
+[2026.04.24-12.13.13:951][361]PIE: Server logged in
+[2026.04.24-12.13.13:952][361]PIE: Play in editor total start time 0.113 seconds.
+[2026.04.24-12.13.14:811][429]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.04.24-12.13.14:811][429]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.04.24-12.13.15:240][466]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2026.04.24-12.13.15:240][466]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2026.04.24-12.13.15:614][498]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.04.24-12.13.15:614][498]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2026.04.24-12.13.16:092][540]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2026.04.24-12.13.16:092][540]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2026.04.24-12.13.16:878][607]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.04.24-12.13.16:878][607]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2026.04.24-12.13.17:365][650]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2026.04.24-12.13.17:365][650]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2026.04.24-12.13.19:425][829]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.04.24-12.13.19:425][829]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2026.04.24-12.13.19:693][853]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2026.04.24-12.13.19:693][853]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2026.04.24-12.13.20:229][900]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.04.24-12.13.20:229][900]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2026.04.24-12.13.20:577][931]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2026.04.24-12.13.20:577][931]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2026.04.24-12.13.21:432][  5]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.04.24-12.13.21:432][  5]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2026.04.24-12.13.21:996][ 55]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2026.04.24-12.13.21:996][ 55]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2026.04.24-12.13.22:796][123]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.04.24-12.13.22:796][123]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2026.04.24-12.13.23:146][154]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2026.04.24-12.13.23:146][154]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2026.04.24-12.13.23:863][216]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.04.24-12.13.23:863][216]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2026.04.24-12.13.24:220][248]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2026.04.24-12.13.24:220][248]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2026.04.24-12.13.24:765][295]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.04.24-12.13.24:765][295]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2026.04.24-12.13.25:080][323]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2026.04.24-12.13.25:080][323]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2026.04.24-12.13.25:807][386]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.04.24-12.13.25:807][386]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2026.04.24-12.13.26:150][417]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2026.04.24-12.13.26:150][417]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2026.04.24-12.13.26:664][463]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.04.24-12.13.26:664][463]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2026.04.24-12.13.27:364][531]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2026.04.24-12.13.27:364][531]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2026.04.24-12.13.27:893][580]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.04.24-12.13.27:893][580]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2026.04.24-12.13.28:283][618]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2026.04.24-12.13.28:283][618]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2026.04.24-12.13.32:665][ 11]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.04.24-12.13.32:665][ 11]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2026.04.24-12.13.33:036][ 45]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2026.04.24-12.13.33:036][ 45]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2026.04.24-12.13.33:745][107]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.04.24-12.13.33:746][107]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2026.04.24-12.13.34:104][140]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2026.04.24-12.13.34:104][140]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2026.04.24-12.13.34:895][209]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.04.24-12.13.34:895][209]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2026.04.24-12.13.35:258][242]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2026.04.24-12.13.35:258][242]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2026.04.24-12.13.36:431][342]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.24-12.13.36:431][342]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2026.04.24-12.13.36:431][342]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2026.04.24-12.13.36:433][342]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.24-12.13.36:433][342]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2026.04.24-12.13.36:436][342]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.04.24-12.13.36:443][342]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.24-12.13.36:460][342]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.04.24-12.13.36:460][342]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 38
+[2026.04.24-12.13.36:461][342]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38
+[2026.04.24-12.13.36:462][342]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38
+[2026.04.24-12.13.36:466][342]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.24-12.13.36:468][342]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2026.04.24-12.13.36:514][343]LogPlayLevel: Display: Destroying online subsystem :Context_47
